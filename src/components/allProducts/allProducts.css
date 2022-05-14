@@ -1,0 +1,93 @@
+.all_products_container {
+    width: 100%;
+    text-align: start;
+    margin: 20px 0;
+    margin-top: 175px;
+}
+
+.all_products_container > h2 {
+    margin: 20px 0;
+    margin-left: 5%;
+}
+
+.mySwiper {
+    width: 90%;
+    height: 327px;
+    padding: 2px 5px; 
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    padding-bottom: 0px;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.slide img {
+    object-fit: cover;
+}
+
+.slide:hover {
+    transform: scaleX(1.01);
+    transition: .3s;
+    box-shadow: #0000003d 0px 2px 6px;
+}
+
+.price {
+    width: 100%;
+    text-indent: 10px;
+}
+
+.info {
+    width: 100%;
+}
+
+.btn {
+    width: 95%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn button {
+    width: 124px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #fbc000;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.btn button .i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.all {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.all a:hover {
+    text-decoration: underline;
+}

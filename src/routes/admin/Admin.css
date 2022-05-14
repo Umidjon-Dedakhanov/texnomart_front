@@ -1,0 +1,31 @@
+.tabs{
+    width: 60%;
+    min-width: 800px;
+    margin: 50px auto;
+    height: 100px;
+    box-shadow: 0px 0px 10px gainsboro;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .tab{
+    padding: 20px 40px ;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #333;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  .activetab{
+    border-radius: 15px;
+    background-color: #fbc000;
+    padding: 20px 40px ;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #333;
+    text-decoration: none;
+  }

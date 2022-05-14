@@ -1,0 +1,48 @@
+.rassrochka_container {
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+}
+
+.rassrochka_container > h1 {
+    text-align: center;
+}
+
+.rassrochka_container ul {
+    width: 90%;
+    height: 220px;
+    margin:  50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+}
+
+.rassrochka_container ul li {
+    width: 390px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ECECEC;
+}
+
+.rassrochka_container ul li span {
+    width: 225px;
+    text-align: center;
+    font-size: 13px;
+    color: #767676;
+    line-height: 18px;
+}
+
+.rassrochka_container ul li h4 {
+    margin: 15px 0 10px 0;
+    color: #333333;
+}
+
+.rassrochka_container ul li:last-child {
+    border: none;
+}
