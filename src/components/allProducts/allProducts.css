@@ -28,8 +28,12 @@
     border-radius: 3px;
 }
 
-.slide img {
-    object-fit: cover;
+.slide > img {
+    max-width: 184px;
+    max-height: 160px;
+    min-width: 184px;
+    min-height: 160px;
+    object-fit: contain;
 }
 
 .slide:hover {

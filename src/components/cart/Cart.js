@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cart.css'
 import { useSelector } from 'react-redux';
+import Header from '../header/Header'
 
 
 const Cart = () => {
@@ -9,6 +10,7 @@ const Cart = () => {
 
     return prd?.length ? (
         <div className="cart_container">
+            <Header className="cart_header"/>
             <div className="cart">
                 <h2 style={{fontSize: "30px", fontWeight: "500"}}>Cart</h2>
                 {
@@ -25,6 +27,7 @@ const Cart = () => {
         </div>
     ) : (
         <div className="product_container">
+             {/* <Header/> */}
             <img src="https://texnomart.uz/files/global/new-photo/img/error/shopping-cart.svg" alt="" />
           <h1> В корзине пока ничего нет</h1>
         </div>

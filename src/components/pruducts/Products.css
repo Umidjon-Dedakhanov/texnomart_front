@@ -36,3 +36,11 @@
     max-width: 90%;
     height: 160px;
 }
+
+.product > img {
+    max-width: 184px;
+    max-height: 160px;
+    min-width: 184px;
+    min-height: 160px;
+    object-fit: contain;
+}

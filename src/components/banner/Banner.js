@@ -43,7 +43,7 @@ const Banner = () => {
           </Slider>
           <div className="circle1"></div>
           <div className="circle2"></div>
-          <div className="slider_products">
+          <div className="slider_products" style={{display: "flex", justifyContent: "center"}}>
           <Swiper
         slidesPerView={6}
         spaceBetween={30}
