@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const newUser = axios.create({
-    baseURL: "http://localhost:2000/"
+    baseURL: process.env.REACT_APP_SERVER_BASEURL
 })
 
 export default newUser;

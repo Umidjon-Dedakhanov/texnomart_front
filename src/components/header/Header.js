@@ -18,7 +18,7 @@ const Header = () => {
         <div className="header_container">
             <div className="nav_wrap">
                 <nav>
-                    <img src="	https://texnomart.uz/files/global/new-photo/img/logotipe/logotipe.svg" alt="" />
+                    <img src="https://texnomart.uz/files/global/new-photo/img/logotipe/logotipe.svg" alt="" />
                     <div className="search_area">
                         <div className="select">
                             <span>Все категории <FiChevronDown className="chevron"/></span>
